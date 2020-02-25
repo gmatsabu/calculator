@@ -8,3 +8,16 @@ class Calculator:
             number = int(value)
             sum += number
         return sum
+    
+    
+def multiply(*numbers):
+    product = 1
+
+    for number in numbers:
+        product = product * number
+    return product
+
+print(multiply(1,3))
+
+print(multiply(1,2,3,4,5))
+        
